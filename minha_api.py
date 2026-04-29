@@ -68,6 +68,9 @@ def pegar_um(id: int):
             
         return usuario
         
-        
+app = FastAPI()
 
+@app.get("/")
+def raiz():
+    return {"msg": "ok"}
 
