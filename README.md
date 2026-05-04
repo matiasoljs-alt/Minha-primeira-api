@@ -61,3 +61,16 @@ POST /deletar_user/{id}
 🧪 Exemplo de requisição
 Criando um usuário:
 curl -X POST "http://127.0.0.1:8000/create_user?nome=Matias&senha=123&email=matias@email.com"
+
+Observações
+O banco de dados utilizado é SQLite (arquivo local .db)
+O campo email é único
+Projeto simples com foco em aprendizado de API REST
+
+🚀 Melhorias futuras
+Autenticação (JWT)
+Criptografia de senha
+Validação de dados
+Deploy online
+Testes automatizados
+_____________
